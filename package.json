@@ -1,0 +1,19 @@
+{
+  "name": "multiply",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node ./index.js",
+    "test": "uvu -r esm tests --isQuiet true"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "esm": "^3.2.25",
+    "node-flag": "^1.5.1"
+  },
+  "devDependencies": {
+    "uvu": "^0.5.1"
+  }
+}
